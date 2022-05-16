@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Example WebApp using node and nginx",
+  "main": "index.js",
+  "scripts": {
+    "test": "print(\"hi\")"
+  },
+  "author": "Aaron Rigdon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
+}
