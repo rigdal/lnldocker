@@ -40,7 +40,7 @@ async function buildBody() {
         <p>
           This project displays how developers can use Docker for local development of containers. \ 
           <br><br>
-          We have multiple containers running locally in this projects, all connecting to form an example environment one may see when developing a microservice app. 
+          We have multiple containers running locally in this project, all connecting to form an example environment one may see when developing a microservice app. 
         </p>
         <div class="lnlweb-area">
           <img src="lnlexample.png" style="object-fit: contain;max-width:400px">
