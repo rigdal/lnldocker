@@ -2,13 +2,13 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [
-          'build', 
+          'build',         
           '-t', 
           'gcr.io/$PROJECT_ID/lnldocker-$BRANCH_NAME', 
           '.',
-          '--build-arg', 'arg_app_name=${_APP_NAME}',          
-          '--file=./webapp/Dockerfile'
+          '--build-arg', 'arg_app_name=${_APP_NAME}',  
         ]
+  dir: 'webapp'
   env:
     - 'APP_NAME=$_APP_NAME'
 - name: 'gcr.io/cloud-builders/docker'
