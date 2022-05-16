@@ -11,6 +11,8 @@ steps:
   dir: 'webapp'
   env:
     - 'APP_NAME=$_APP_NAME'
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/lnldocker-$BRANCH_NAME']
 substitutions:
     _APP_NAME: appnametest # default value
 images: ['gcr.io/$PROJECT_ID/lnldocker-$BRANCH_NAME']
