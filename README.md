@@ -27,3 +27,11 @@ The Webapp tracks the number of clicks via the click API and polls for the resul
 The Nginx webserver is routing the traffic based on path, and the web backend container serves the website’s content.
 
 ![image](https://user-images.githubusercontent.com/51674375/168856335-1534cbe5-b430-42ae-893e-b0f2a2150b5e.png)
+
+# Running the App
+There is a docker-compose.yml file within the main directory of the project.
+
+To run all containers issue the following command from a terminal in the directory
+```
+docker-compose up --build
+```
