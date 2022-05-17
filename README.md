@@ -1,4 +1,4 @@
-# lnldocker
+# Docker Lunch N' Learn
 Showcase of Docker for a Lunch N' Learn with Hylaine.
 
 This project aims to introduce Docker with real examples showing how it can play into your development pipelines of application development, microservice architecture, and modern CICD delivery processes. 
