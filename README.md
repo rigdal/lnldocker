@@ -35,6 +35,7 @@ To run all containers issue the following command from a terminal in the directo
 ```
 docker-compose up --build
 ```
+Example:
 ```
 PS C:\Users\AaronRigdon\Documents\GitHub\Hylaine\lnldocker> docker-compose up --build
 ```
