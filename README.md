@@ -1,7 +1,10 @@
+![HylaineLogo_Tag-White_Transparent](https://user-images.githubusercontent.com/51674375/169115975-78bb1ad7-1c07-484c-9fca-04056f43097d.png)
+www.hylaine.com
+
 # Docker Lunch N' Learn
 Showcase of Docker for a Lunch N' Learn with Hylaine.
 
-This project aims to introduce Docker with real examples showing how it can play into your development pipelines of application development, microservice architecture, and modern CICD delivery processes. 
+This project aims to introduce Docker with a real example showing how it can play into your development pipelines of application development, microservice architecture, and modern CICD delivery processes. 
 
 Topics and ideas covered are:
 
