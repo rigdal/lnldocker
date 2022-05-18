@@ -15,6 +15,15 @@ Topics and ideas covered are:
 -	Docker Compose orchestrating the containers locally
 -	Live CICD example for Docker with GitHub and Google Cloud Build via YAML to automatically build images in Artifact Registry in GCP
 
+# Getting Started
+You will need [Docker Desktop](https://docs.docker.com/get-docker/) for your respective OS.
+
+We also suggest using [Visual Studio Code](https://code.visualstudio.com/Download), which is a free open-source code editor that works for many different OS.
+
+Both of these tools support Windows, Mac, and Linux.
+
+Clone this repo to your local machine and open it in Visual Code.
+
 # Our Example Application
 
 Our showcase example will be a simple imitation of what developing a microservice web app can look like when using Docker. 
