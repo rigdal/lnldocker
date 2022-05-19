@@ -1,19 +1,41 @@
+![HylaineLogo_Tag-White_Transparent](https://user-images.githubusercontent.com/51674375/169115975-78bb1ad7-1c07-484c-9fca-04056f43097d.png)
+www.hylaine.com
+
+# Content
+
+   [Overview](#docker-lunch-n-learn)
+
+   [Getting Started](#getting-started)
+
+   [Our Example Application](#our-example-application)
+
+   [Running The App](#running-the-app)
+
 # Docker Lunch N' Learn
 Showcase of Docker for a Lunch N' Learn with Hylaine.
 
-This project aims to introduce Docker with real examples showing how it can play into your development pipelines of application development, microservice architecture, and modern CICD delivery processes. 
+In conjunction with our live PPT presentation, this project aims to introduce Docker with live examples showing how it can play into your development pipelines of applications, microservices, and modern CICD delivery processes. 
 
 Topics and ideas covered are:
 
-- Brief introduction to Docker and some core components of the toolset
+- Brief introduction to Docker and some core components of the toolset to get started
 - A working microservice web application custom-built for this showcase that uses 5 separate images/containers
    - Nginx Web Server/Proxy
    - Node Web backend
-   -	Node API #1
-   -	Node API #2
-   -	Redis DB
+   - Node API #1
+   - Node API #2
+   - Redis DB
 -	Docker Compose orchestrating the containers locally
 -	Live CICD example for Docker with GitHub and Google Cloud Build via YAML to automatically build images in Artifact Registry in GCP
+
+# Getting Started
+You will need [Docker Desktop](https://docs.docker.com/get-docker/) for your respective OS.
+
+We also suggest using [Visual Studio Code](https://code.visualstudio.com/Download), which is a free open-source code editor that works for many different OS.
+
+Both of these tools support Windows, Mac, and Linux.
+
+Clone this repo to your local machine and open it in Visual Code.
 
 # Our Example Application
 
@@ -39,3 +61,13 @@ Example:
 ```
 PS C:\Users\AaronRigdon\Documents\GitHub\Hylaine\lnldocker> docker-compose up --build
 ```
+
+After running the command Docker will start building the images and run them once complete. 
+
+![image](https://user-images.githubusercontent.com/51674375/169122944-f615e352-8001-45cc-9304-4458fa907a4d.png)
+
+You can check the container tab in Docker Desktop and see the final app running with all the individual containers underneath it.
+
+![image](https://user-images.githubusercontent.com/51674375/169123950-d7a487cd-7e1d-4f08-85d9-686122d23a35.png)
+
+
