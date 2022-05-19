@@ -3,7 +3,7 @@ services:
     web:
         container_name: lnlwebapp
         build: 
-            context: /webapp
+            context: ./webapp
             dockerfile: Dockerfile
         command: nodemon --watch /usr/src/app
         depends_on:
@@ -20,7 +20,7 @@ services:
     click:
         container_name: lnlclickapp
         build: 
-            context: /clickapp
+            context: ./clickapp
             dockerfile: Dockerfile        
         command: nodemon --watch /usr/src/app
         depends_on:
@@ -35,7 +35,7 @@ services:
     result:
         container_name: lnlresultapp
         build: 
-            context: /resultapp
+            context: ./resultapp
             dockerfile: Dockerfile        
         command: nodemon --watch /usr/src/app
         depends_on:
