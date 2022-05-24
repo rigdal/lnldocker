@@ -70,4 +70,12 @@ You can check the container tab in Docker Desktop and see the final app running 
 
 ![image](https://user-images.githubusercontent.com/51674375/169123950-d7a487cd-7e1d-4f08-85d9-686122d23a35.png)
 
+# Google Cloud Build
+In this example we implemented a simple Google Cloud Build trigger that listens for pushes to the main branch of a GitHub repo.
 
+You will need your own Google Cloud project to follow along. Google Cloud offers a free $300 credit for personal accounts and the free trial can be used to setup and test this.
+
+See the below guides for examples.
+
+https://cloud.google.com/build/docs/configuring-builds/create-basic-configuration
+https://cloud.google.com/build/docs/automating-builds/create-manage-triggers
