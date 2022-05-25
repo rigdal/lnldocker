@@ -45,7 +45,7 @@ async function buildBody() {
         <div class="lnlweb-area">
           <img src="lnlexample.png" style="object-fit: contain;max-width:400px">
           <div class="lnlweb-area-act">
-            <button id="clicker">Click Me!</button>
+            <button id="clicker">Click Me, please!</button>
             <div id="resultline">
               You have clicked <div id="results">${await getClicks()}</div> times.
             </div>
