@@ -28,6 +28,7 @@ async function startup() {
 
 async function recordClick(){ 
   let value = await client.get('clicks')
+  if(typeof value != 'string') value = 0
   await client.set('clicks', !isNaN(value) ? parseInt(value)+1 : 1)
   return value
 }

@@ -37,7 +37,8 @@ function setupResults(){
                 headers: {'Content-Type': 'application/json'},
             })
             let result = await req.json()
-            if(result && area) area.innerText = result.result
+            console.log(result)
+            if(result.result != null && area) area.innerText = result.result
         }
     }, 2000)
 }
